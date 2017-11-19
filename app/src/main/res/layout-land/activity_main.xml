@@ -22,28 +22,28 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonSave"
+        android:id="@+id/buttonAdd"
         android:layout_width="123dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginStart="16dp"
-        android:text="Save"
+        android:text="Add"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/buttonNew"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDelete"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
     <Button
-        android:id="@+id/buttonNew"
+        android:id="@+id/buttonDelete"
         android:layout_width="124dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Add"
+        android:text="Delete"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/buttonSave" />
+        app:layout_constraintStart_toEndOf="@+id/buttonAdd" />
 
     <ListView
         android:id="@+id/listView"
